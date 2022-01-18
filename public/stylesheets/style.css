@@ -130,7 +130,7 @@ button.delete{
 }
 .territory {
   display: flex;
-}
+}+
 .city, .state {
   margin-state: 16px;
 }

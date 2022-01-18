@@ -31,8 +31,8 @@ mixin employeeForm(url, employee, jobtitles, stateslist)
                 div.state
                     label(for='state') State:
                     select(id='state' name='state')
-                        each state on statesList
-                            option(value=state selected=employee.state===state) #{state}
+                        each state in statesList
+                            option(value=state selected=(employee.state===state)) #{state}
 
                 div.zip
                     label(for='zip') Zip:
